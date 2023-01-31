@@ -1,0 +1,51 @@
+li:first-child{
+    color: red;
+    font-weight: 900;
+    font-size: 1.5em
+}
+
+a {
+    text-decoration: none;
+}
+
+p#top a{
+    text-decoration: none;
+    background-color: rgb(0, 81, 255);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+p#top a:hover{
+    color: rgb(5, 255, 5);
+    font-weight: 100;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background: linear-gradient(45deg,rgb(255, 0, 64),rgb(255, 0, 247));
+    width: 100%;
+    display: block;
+    height: 100px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 3px 2px black;
+    font-size: 18px;
+}
+
+.main-footer{
+    background: linear-gradient(45deg,black, darkslategray);
+    color: white;
+    padding: 12px;
+    box-shadow: 0 5px 2px black;
+}
+
+.main-footer a{
+    color: white;
+}
